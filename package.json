@@ -1,0 +1,28 @@
+{
+  "name": "express-generator",
+  "version": "1.0.0",
+  "description": "this script will generate boiler plate for express application",
+  "main": "expressGenerator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node expressGenerator.js",
+    "express-generator": "node expressGenerator.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\\"
+  },
+  "author": "ishanjirety",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "crypto": "^1.0.1",
+    "fs": "0.0.1-security",
+    "node-cmd": "^4.0.0",
+    "path": "^0.12.7",
+    "readline-sync": "^1.4.10",
+    "tree-node-cli": "^1.4.0",
+    "util": "^0.12.4",
+    "yargs": "^17.0.1"
+  }
+}
